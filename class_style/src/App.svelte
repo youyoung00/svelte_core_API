@@ -6,7 +6,8 @@
 	Toggle!
 </button>
 
-<div class={active ? 'active' : ''}>
+<!-- <div class={active ? 'active' : ''}> -->
+<div class:hello={active}>
 	Hello
 </div>
 
@@ -22,7 +23,7 @@
 		color: white;
 		transition: .4s;
 	}
-	.active{
+	.hello{
 		width: 250px;
 		background: tomato;
 	}
